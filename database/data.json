@@ -1,0 +1,114 @@
+{
+  "movies": [
+    {
+      "moviename": "KGF",
+      "hero": "punit",
+      "heroine": "Sreenidhi sheety",
+      "director": "Rprashant",
+      "genre": "action",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kgf-chapter-2-et00098647-08-04-2022-11-33-32.jpg",
+      "trailer": "https://www.youtube.com/embed/Qah9sSIXJqk",
+      "year": "2020",
+      "rating": "10",
+      "synopsis": "The blood-soaked land of Kolar Gold Fields (KGF) has a new overlord now - Rocky, whose name strikes fear in the heart of his foes. His allies look up to Rocky as their saviour, the government sees him as a threat to law and order; enemies are clamouring for revenge and conspiring for his downfall. Bloodier battles and darker days await as Rocky continues on his quest for unchallenged supremacy.",
+      "languages": [
+        "Kannada",
+        "Tamil",
+        "telugu",
+        "malayalam",
+        "hindi"
+      ],
+      "id": 2
+    },
+    {
+      "moviename": "RRR",
+      "hero": "NTR ",
+      "heroine": "alia",
+      "director": "Rajmouli",
+      "genre": "divine",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/rrr-et00094579-12-05-2022-02-26-04.jpg",
+      "trailer": "https://www.youtube.com/embed/GY4BgdUSpbE",
+      "year": "2020",
+      "rating": "8",
+      "synopsis": "RRR is a period drama set in India during the 1920s, revolving around the inspiring journey of two of India`s freedom fighters - Alluri Sitarama Raju and Komaram Bheem.",
+      "languages": [
+        "hindi"
+      ],
+      "id": 3
+    },
+    {
+      "id": "4",
+      "moviename": "apthamitra",
+      "hero": "vishuvardhan",
+      "heroine": "soudariya",
+      "director": "p vasu",
+      "languages": [
+        "kannada"
+      ],
+      "genre": "horror",
+      "poster": "https://m.media-amazon.com/images/I/81duXR-7hOL._SL1420_.jpg",
+      "trailer": "https://www.youtube.com/embed/Gf-qmEbnL0I",
+      "release": "2004",
+      "rating": 10,
+      "synopsis": "stars Vishnuvardhan, Soundarya and Ramesh Arvind in the lead roles with Prema, Dwarakish and Avinash in supporting roles. The movie is a remake of the 1993 Malayalam film Manichithrathazhu.[4] The film was released on 27 August 2004 on Varalakshmi festival to positive reviews.[5]It ran for one-hundred days in theaters across Karnataka and was one of the highest-grossing films of the year.[6] Apthamitra was later followed by its sequel, Aptharakshaka (2010). P. Vasu also remade the film in Tamil in 2005 as Chandramukhi with Rajinikanth and Jyothika in the leads. Actress Soundarya is remembered for her performance in this film?"
+    },
+    {
+      "id": 5,
+      "moviename": "Love mocktail",
+      "hero": "Darling Krishna",
+      "heroine": "Milana Nagaraj , Amrutha",
+      "director": "Darling Krishna",
+      "languages": [
+        "kannada"
+      ],
+      "genre": "romance",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/love-mocktail-et00124382-20-10-2020-09-58-18.jpg",
+      "trailer": "https://www.youtube.com/embed/IsEdANxZD3c",
+      "release": "2020",
+      "rating": 8,
+      "synopsis": "Love moctail is a romantic and fun film about the protagonist Adi`s quest for love. Life takes him through a roller coaster of a ride and he goes through varied experiences at several stages throughout his search for true love. Does Adi finally find his soul mate?"
+    },
+    {
+      "moviename": "3 idiots",
+      "hero": "amir",
+      "heroine": "kareena",
+      "director": "rajkumar",
+      "genre": "comedy",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/3-idiots-et00001611-24-03-2017-16-06-37.jpg",
+      "trailer": "https://www.youtube.com/embed/ppYoIoW73PI",
+      "release": "2020",
+      "rating": "8",
+      "synopsis": "Three Idiots is about 3 guys (Aamir Khan, Sharman Joshi, R. Madhavan) studying in a technological institute, their experiences, their escapades, their lives in general. The flick gives an insight on what not to do at IIT, just as the tagline says.",
+      "languages": [],
+      "id": 8
+    },
+    {
+      "moviename": "avatar",
+      "hero": "ameer",
+      "heroine": "karrena",
+      "director": "rajkumar",
+      "genre": "divine",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/avatar-the-way-of-water-et00037264-1670850986.jpg",
+      "trailer": "https://www.youtube.com/embed/Gf-qmEbnL0I",
+      "release": "2020",
+      "rating": "5",
+      "synopsis": "Avatar is an American media franchise created by James Cameron, which consists of a planned series of epic science fiction films produced by Lightstorm Entertainment and distributed by 20th Century Studios, as well as associated merchandise, video games and theme park",
+      "languages": [],
+      "id": 9
+    },
+    {
+      "moviename": "shivaji suratkal",
+      "hero": "ramesh ",
+      "heroine": "ramya",
+      "director": "ramesh",
+      "genre": "action",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/shivaji-surathkal-2-et00356291-1680262012.jpg",
+      "trailer": "https://www.youtube.com/embed/tqbQtbiccB0",
+      "release": "2020",
+      "rating": "8",
+      "synopsis": "Five years have flown by since Shivaji cracked the infamous Ranagiri case. Although he knows who killed his wife and why, Janani's absence still haunts him. Can he get it together to catch a serial killer?",
+      "languages": [],
+      "id": 10
+    }
+  ]
+}

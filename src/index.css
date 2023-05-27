@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  color: white;
+  height: 70px;
+  background-color: rgb(6, 6, 63);
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+
+}
+
+#logo h1 {
+  font-family: 'Bruno Ace SC', cursive;
+  letter-spacing: 4px;
+}
+#logo a{
+  color: white;
+  text-decoration: none;
+}
+
+#search-bar input {
+  width: 300px;
+  height: 35px;
+  border: none;
+  padding-left: 20px;
+  border-radius: 4px;
+  font-size: 15px;
+
+
+}
+
+#search-bar button {
+  width: 80px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  margin-left: -80px;
+  font-size: 15px;
+}
+
+#add-movie a,#fav-movie a {
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s linear;
+}
+
+#add-movie a:hover,#fav-movie a:hover {
+  background-color: white;
+  color: rgb(6, 6, 63);
+
+}
+
+
+/* home style */
+.home {
+  padding: 20px 100px;
+}
+
+.movies {
+  width: 80vw;
+  height: auto;
+  padding: 20px;
+  border: solid 5px black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+
+
+}
+
+.movie {
+  width: 250px;
+  height: auto;
+  text-align: center;
+  padding: 12px;
+  border: solid 1px black;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.movie a {
+  color: black;
+  text-decoration: none;
+}
+
+.movie img {
+  width: 100%;
+  height: 250px;
+  border-radius: 6px;
+}
+
+.movie:hover {
+  transform: scale(1.05);
+}
+
+.movie-details img {
+  width: 300px;
+  height: 350px;
+
+}
+
+#title {
+  color: white;
+  background-color: black;
+  text-align: center;
+  position: sticky;
+  top: 70px;
+  z-index: 100;
+}
+
+#add {
+  text-align: center;
+}
+
+form {
+  transform: scale(1.1);
+  background-color: white;
+  width: 450px;
+  height: auto;
+  padding: 20px;
+  margin: 70px auto;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.463);
+  text-align: center;
+}
+
+form input {
+  display: block;
+  width: 90%;
+  height: 40px;
+  margin: 5px auto;
+}
+ form input[type="checkbox"]{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+}
+ form button{
+  background-color: rgb(17, 213, 148);
+  padding: 10px 25px;
+  margin: 20px auto;
+  border: solid 2px white;
+  border-radius: 6px;
+}
+ form button:hover{
+  background-color:white;
+  border: solid 2px rgb(17, 213, 148);
+}
+.add-btn{
+  color:red;
+  background-color: transparent;
+  border:none;
+  font-size: 25px;
+  animation:emptyHeart 0.5s;
+} 
+
+.remove-btn{
+  color:red;
+  background-color: transparent;
+  border:none;
+  font-size: 25px;
+  animation:filledHeart 0.5s;
+} 
+
+@keyframes filledHeart{
+  0%{
+    trasform:scale(0);
+  }
+  60%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+  
+}
+@keyframes emptyHeart{
+  0%{
+    trasform:scale(0);
+  }
+  60%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.suggestion-box{
+  color:black;
+  width:200px;
+  height:auto;
+  background-color: rgb(221, 219, 219);
+  position:absolute;
+  top:55px;
+  left:480px;
+  padding:10px;
+  border-radius: 4px;
+}
+.suggestion-box ul{
+  list-style: none;
+}
+.suggestion-box ul li{
+  background-color: rgb(221,219,219);
+  transition:0.2s;
+}
+.suggestion-box ul li:hover{
+  background-color: rgb(186, 185, 185);
+  transform:scale(1.05);
+  cursor: pointer;  
+}
+
+/* tablet style */
+@media (max-width:1020px) 
+{
+  nav{
+    padding: 20px 60px;
+  }
+  #logo h1{
+    font-size: 25px;
+  }
+  #search-bar{
+    width: 300px;
+  }
+  #search-bar input{
+    width: 250px;
+    height: 35px;
+    font-size: 13px;
+  }
+  #search-bar button{
+    width: 60px;
+    height: 35px;
+    margin-left: -60px;
+    font-size: 13px;
+  }
+  #add-movie , #fav-movie {
+    display: none;
+  }
+  #hamberger{
+    display: block;
+  }
+  #hamberger span{
+    font-size: 30px;
+  }
+  #menu{
+    background-color: black;
+    width: 170px;
+    position: absolute;
+    top: 75px;
+    right: 50px;
+  }
+  #menu a{
+    display: block;
+    margin: 5px 10px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.2s linear;
+  }
+  #menu a:hover{
+    color: black;
+    background-color: white;
+  }
+}
+/* mobile screen */
+@media (max-width:700px) 
+{
+  nav{
+    padding: 20px 40px;
+  }
+  #logo h1{
+    font-size: 20px;
+  }
+  #search-bar{
+    width: 250px;
+  }
+  #search-bar input{
+    width: 150px;
+    height: 35px;
+    font-size: 10px;
+  }
+  #search-bar button{
+    width: 40px;
+    height: 35px;
+    margin-left: -30px;
+    font-size: 10px;
+  }
+  .home {
+    padding: 50px;
+  }
+  .movie-list{
+    width:90vw;
+  }
+  .movies {
+    width: 100%;
+    height: 400px;
+    /* horozontal row */
+    flex-direction: column;
+
+    /* vertical scrolling */
+    /* flex-direction: row; */
+    overflow: auto;
+  
+  
+  }
+  
+  .movie {
+    width: 210px;
+    margin:0px 20px;
+    padding:10px;
+    transition: 0.2s;
+  }
+  
+  .movie a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .movie img {
+    width: 100%;
+    height: 250px;
+    border-radius: 6px;
+  }
+  
+  .movie:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie h2{
+    font-size: 20px;
+  }
+  
+
+  
+}
