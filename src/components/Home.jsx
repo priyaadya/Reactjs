@@ -35,7 +35,9 @@ const Home = () => {
        {movies && <MoviesList movies={movies.filter((m)=>{return m.rating>=8.5})} title="Top Rated Movies"/>} 
        
        
-       
+       <div>
+        <h1>hiiiii</h1>
+       </div>
         </div>
     );
 }
